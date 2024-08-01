@@ -7,6 +7,17 @@ h1{
     font-size: 36px;
     color: darkmagenta;
 }
+
+.form-container{
+
+    padding: 30px;
+    background-color: rgb(230, 167, 203);
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0px 20px 60px rgb(100, 90, 92);
+    
+}
+
 .container{
     max-width: 600px;
     margin: 120px auto;
@@ -18,12 +29,7 @@ header{
  }   
 
 form{
-    padding: 30px;
-    background-color: rgb(230, 167, 203);
-    border-radius: 10px;
     display: flex;
-    margin-bottom: 20px;
-    box-shadow: 0px 20px 60px rgb(100, 90, 92);
 }
     
 .instructions{
@@ -47,12 +53,17 @@ form{
 .poem{
     font-size: 18px;
     background-color:  rgb(230, 167, 203);
-    padding: 20px;
+    padding: 30px;
     line-height: 20px;
     border-left:3px  ;
     border-radius: 10px;
     box-shadow: 0px 20px 60px rgb(100, 90, 92);
+    margin-top: 30px;
 
+}
+
+.hidden{
+    display: none;
 }
 .poem strong{
     color: red;
